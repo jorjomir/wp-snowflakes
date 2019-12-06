@@ -1,0 +1,71 @@
+/*
+Theme Name: Snowflakes
+Author: Georgi Sabev
+*/
+
+.text-center {
+    text-align: center;
+}
+.text-white {
+    color: white;
+}
+.publishedText {
+    text-align: right;
+    margin-top: -2vh;
+}
+.pagination {
+    font-size: 18px;
+}
+
+
+.forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400; 
+}
+.forecast .forecast-content {
+    /*padding: 50px 20px 10px;*/
+    text-align: center; 
+}
+.forecast .forecast-content .forecast-icon {
+    margin-bottom: 20px; 
+}
+.forecast .forecast-content .degree {
+    font-size: 24px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700; 
+}
+.forecast .forecast-content small {
+    font-size: 16px;
+    font-size: 1.1428571429em; 
+}
+.detailed-table {
+    width: 100%;
+}
+.detailed-table td:nth-child(even) {
+    background-color: #262936;
+}
+.detailed-table td:nth-child(odd) {
+    background-color: #323544;
+}
+.detailed-table td, .detailed-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.detailed-table td:hover, .detailed-table th:hover {
+    background-color: #4f5263;
+}
+.detailed-table {
+    margin-bottom: 60px;
+}
+.logo-type {
+    display: inline-grid;
+}
+.logo-type .site-description {
+    margin-top: -20px;
+}
+.forecast-header {
+    color: white;
+}
